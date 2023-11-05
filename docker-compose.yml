@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  dev:
+    restart: unless-stopped
+    init: true
+    build:
+      args:
+        DOCKER_BUILDKIT: 1
+      context: ./
+    ports:
+      - 8080:80
