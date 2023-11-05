@@ -1,13 +1,25 @@
-[![Open in Dev Containers](https://img.shields.io/static/v1?label=Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/wujiayi101/devcontainer_demo_golang)
-
 # devcontainer_demo_golang
 
 A sample golang project uses [devcontainer](https://code.visualstudio.com/docs/devcontainers/containers)
 
+
+# Start project in devcontainer
+
+`Devcontainer` allows you to write code in a full-feature containerized development environment:
+
+1. Ensure Docker is installed and running
+2. Install [vscode](https://code.visualstudio.com/) and `Dev Containers` extension
+3. Open this project in vscode
+4. Launch `Command Palette` from the UI or run `⌘ + Shift + P` if you are on Mac
+5. Select either `Reopen in Container` or `Rebuild Container` to start the Devcontainer
+
+
 # Start service locally
 
-Build and start a service at `localhost:8080`
+1. Launch vscode terminal in vscode
 
-```
-docker-compose up --build
-```
+1. Run the following command to start a service at `localhost:8080`
+
+    ```
+    docker-compose up --build
+    ```
