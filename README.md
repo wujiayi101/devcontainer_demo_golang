@@ -6,7 +6,7 @@ A sample golang project uses [devcontainer](https://code.visualstudio.com/docs/d
 
 # Start service locally
 
-Build and start a service at port `8080`
+Build and start a service at `localhost:8080`
 
 ```
 docker-compose up --build
