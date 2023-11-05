@@ -34,5 +34,4 @@ jobs:
           cacheFrom: ${{ env.IMAGE }}
           push: always
           runCmd: |
-            make test
             make ci
