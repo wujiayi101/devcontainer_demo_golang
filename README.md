@@ -16,10 +16,17 @@ A sample golang project uses [devcontainer](https://code.visualstudio.com/docs/d
 
 # Start service locally
 
-1. Launch vscode terminal in vscode
+1. Launch vscode terminal in vscode``
 
-1. Run the following command to start a service at `localhost:8080`
+1. Run test and lint
+
+    ```
+    make ci
+    ```
+
+1. Run the following command to build the service
 
     ```
     docker-compose up --build
     ```
+1. Run `localhost:8080` to start the service
