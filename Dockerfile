@@ -13,8 +13,6 @@ FROM alpine:3.18.4
 
 ARG COMMIT="n/a"
 
-ENV COMMIT=${COMMIT}
-
 COPY --from=builder /app/bin/server /app/server
 
 EXPOSE 80
