@@ -5,20 +5,19 @@
 A sample golang project uses [devcontainer](https://code.visualstudio.com/docs/devcontainers/containers)
 
 
-# Start project in devcontainer
+# Launch project in devcontainer
 
 `Devcontainer` allows you to write code in a full-feature containerized development environment:
 
 1. Ensure Docker is installed and running
+
 1. Install [vscode](https://code.visualstudio.com/)
-1. Open this project in vscode
-1. Launch `Command Palette` from the UI or run `⌘ + Shift + P` if you are on Mac
-1. Select either `Reopen in Container` or `Rebuild Container` to start the Devcontainer
 
+1. Click the top `Dev Containers Open` badge to launch the project to a devcontainer
 
-# Start service locally
+# Start service
 
-1. Launch vscode terminal in vscode``
+1. Launch vscode terminal in vscode
 
 1. Run test and lint
 
