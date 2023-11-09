@@ -20,7 +20,7 @@ repos:
   - repo: local
     hooks:
       - id: go-unit-tests
-        name: Go unit tests`
+        name: Go unit tests
         entry: make test
         pass_filenames: false
         types: [go]
