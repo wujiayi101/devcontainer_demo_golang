@@ -2,6 +2,7 @@
 
 A sample golang project uses [devcontainer](https://code.visualstudio.com/docs/devcontainers/containers)
 
+[My blog](https://wu101.com/blog/devcontainer-the-introduction/) uses it to talk about devcontainers.
 
 # Start project in devcontainer
 
