@@ -8,15 +8,19 @@ A sample golang project uses [devcontainer](https://code.visualstudio.com/docs/d
 
 [My blog](https://wu101.com/blog/devcontainer-the-introduction/) uses it to talk about devcontainers.
 
+# System requirements
+
+* Ensure Docker is installed and running
+* Install [vscode](https://code.visualstudio.com/) and `Dev Containers` extension
+
 # Start project in devcontainer
 
-`Devcontainer` allows you to write code in a full-feature containerized development environment:
+* *Option 1*: Click `Dev Containers | Open` badge
 
-1. Ensure Docker is installed and running
-2. Install [vscode](https://code.visualstudio.com/) and `Dev Containers` extension
-3. Open this project in vscode
-4. Launch `Command Palette` from the UI or run `⌘ + Shift + P` if you are on Mac
-5. Select either `Reopen in Container` or `Rebuild Container` to start the Devcontainer
+* *Option 2*: Manually start devcontainer in VS Code
+    1. Open this project in vscode
+    1. Launch `Command Palette` from the UI or run `⌘ + Shift + P` if you are on Mac
+    1. Select either `Reopen in Container` or `Rebuild Container` to start the Devcontainer
 
 
 # Start service locally
