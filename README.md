@@ -25,7 +25,7 @@ A sample golang project uses [devcontainer](https://code.visualstudio.com/docs/d
 
 # Start service locally
 
-1. Launch vscode terminal in vscode``
+1. Launch vscode terminal in vscode
 
 1. Run test and lint
 
