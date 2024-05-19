@@ -9,13 +9,7 @@
       "installDockerBuildx": true,
       "version": "latest",
       "dockerDashComposeVersion": "v2"
-    },
-    "ghcr.io/devcontainers-contrib/features/zsh-plugins:0": {
-      "plugins": "npm git zsh-autosuggestions zsh-syntax-highlighting",
-      "omzPlugins": "https://github.com/zsh-users/zsh-autosuggestions https://github.com/zsh-users/zsh-syntax-highlighting.git",
-      "username": "vscode"
-    },
-    "ghcr.io/stuartleeks/dev-container-features/shell-history:0": {}
+    }
   },
   "customizations": {
     "vscode": {
