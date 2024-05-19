@@ -2,7 +2,7 @@
   "name": "devcontainer_demo_golang",
   "build": {
     "dockerfile": "../Dockerfile",
-    "target": "base"
+    "target": "develop"
   },
   "features": {
     "ghcr.io/devcontainers/features/docker-in-docker:2": {
