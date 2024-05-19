@@ -1,32 +1,27 @@
 {
   "name": "devcontainer_demo_golang",
-  "image": "mcr.microsoft.com/devcontainers/base:bullseye",
+  "build": {
+    "dockerfile": "../Dockerfile",
+    "target": "develop"
+  },
   "features": {
-    "ghcr.io/devcontainers/features/go:1": {
-      "version": "1.21"
-    },
-    "ghcr.io/devcontainers-contrib/features/zsh-plugins:0": {
-      "plugins": "npm git zsh-autosuggestions zsh-syntax-highlighting sudo",
-      "omzPlugins": "https://github.com/zsh-users/zsh-autosuggestions https://github.com/zsh-users/zsh-syntax-highlighting.git",
-      "username": "vscode"
-    },
     "ghcr.io/devcontainers/features/docker-in-docker:2": {
       "installDockerBuildx": true,
       "version": "latest",
       "dockerDashComposeVersion": "v2"
     },
-    "ghcr.io/stuartleeks/dev-container-features/shell-history:0": {},
-    "ghcr.io/devcontainers-contrib/features/pre-commit:2": {}
+    "ghcr.io/devcontainers-contrib/features/zsh-plugins:0": {
+      "plugins": "npm git zsh-autosuggestions zsh-syntax-highlighting",
+      "omzPlugins": "https://github.com/zsh-users/zsh-autosuggestions https://github.com/zsh-users/zsh-syntax-highlighting.git",
+      "username": "vscode"
+    },
+    "ghcr.io/stuartleeks/dev-container-features/shell-history:0": {}
   },
   "customizations": {
     "vscode": {
       "extensions": [
         "streetsidesoftware.code-spell-checker",
-        "shardulm94.trailing-spaces",
-        "github.vscode-github-actions",
-        "golang.go",
-        "ms-azuretools.vscode-docker",
-        "ms-vscode.makefile-tools"
+        "shardulm94.trailing-spaces"
       ],
       "settings": {
         "editor.formatOnSave": true,
