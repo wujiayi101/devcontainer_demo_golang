@@ -17,10 +17,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Pre-build image and run make ci-build in dev container
-        uses: devcontainers/ci@v0.3
-        with:
-          cacheFrom: ghcr.io/${{ github.repository }}
-          push: never
-          runCmd: |
-            make ci
+      - name: lint and test
+        container:
+          image: "./Dockerfile"
+        run: |
+          make lint
+          make test

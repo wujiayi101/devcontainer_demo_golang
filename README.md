@@ -27,10 +27,11 @@ A sample golang project uses [devcontainer](https://code.visualstudio.com/docs/d
 
 1. Launch vscode terminal in vscode
 
-1. Run test and lint
+1. Run lint and test
 
     ```
-    make ci
+    make lint
+    make test
     ```
 
 1. Run the following command to build the service
